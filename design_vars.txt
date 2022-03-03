@@ -1,0 +1,3 @@
+Primary #ff00aa
+secondary f79cdf
+SS #ed217c
