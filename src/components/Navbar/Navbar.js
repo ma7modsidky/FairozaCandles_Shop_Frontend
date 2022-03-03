@@ -6,7 +6,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 function Navbar({toggleMenu,toggleCart}) {
   return (
-    <nav class="bg-white px-2 sm:px-4 py-2.5  dark:bg-gray-800 border  text-secondary fixed top-0 left-0 right-0 z-[2000] max-h-[100px]">
+    <nav class="bg-white px-2 sm:px-4 py-2.5 text-secondary fixed top-0 left-0 right-0 z-[2000] max-h-[100px]">
       <div class="container flex flex-wrap justify-between items-center mx-auto">
         <div className="md:hidden text-3xl cursor-pointer" onClick={toggleMenu}>
           <GiHamburgerMenu />
